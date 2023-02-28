@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.para{
+    height: 10vh;
+    background: linear-gradient(to right, #eb3349, #f45c43);
+    font-family: 'Pacifico', cursive;
+}
+p{
+    text-align: center;
+    font-size: 35px;
+
+}
+.container-fluid{
+    min-height: 90vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
+}
+.container-fluid 
+
+form{
+    height: 300px;
+    /* width: 350px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    /* background-color: #fff; */
+    background: linear-gradient(to right, #eb3349, #f45c43);
+}
+.output-section{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .output-section img{
+    height: 100px;
+    width: 100px;
+} */
+h1{
+    text-align: center;
+    width: 250px;
+    height: 50px;
+  /* background-color: #f2690e; */
+  border-radius: 10px;
+}
+h2{
+    text-align: center;
+    /* font-family: 'Oswald', sans-serif; */
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+@media(max-width:600px){
+.container-fluid{
+    flex-direction: column;
+}
+}
+
